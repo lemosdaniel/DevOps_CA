@@ -19,4 +19,4 @@ echo $SERVER > server.crt
 pm2 kill
 
 # Start the app using pm2
-pm2 start ./bin/www --name simple_app
+pm2 start ./bin/www --name SimpleApplication --env production
